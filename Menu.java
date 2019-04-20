@@ -8,22 +8,22 @@ public class Menu {
     static Scanner input = new Scanner(System.in);
 
     public static void menu() {
-        System.out.println("Welcome \n1. Burger ($2.00) \n2. Fries ($1.50)\n3. Soda ($1.00) \n4. Done");
+        System.out.println("Welcome \n1. Burger ($5.00) \n2. Fries ($7.50)\n3. Soda ($2.00) \n4. Done");
     }
 
     public static double itemPrice(int foodItem) {
         if (foodItem == 1) {
-            // burger= $2.00
+            // burger= $5.00
             System.out.println("You've ordered a burger");
             itemPrice = 2.00;
         }
         if (foodItem == 2) {
-            // fries = $1.50
+            // fries = $7.50
             System.out.println("You've ordered fries");
             itemPrice = 1.50;
         }
         if (foodItem == 3) {
-            // soda = $1.00
+            // soda = $2.00
             System.out.println("You've ordered a soda");
             itemPrice = 1.00;
         }
