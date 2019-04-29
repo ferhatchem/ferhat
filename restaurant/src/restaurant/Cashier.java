@@ -395,7 +395,7 @@ class SubTotal extends JFrame implements KeyListener {
 		subTotalCenterPanel.setLayout(new BorderLayout(0,0));
 		subTotalCenterPanel.setBackground(new Color(160,255,150));
 
-		subTotalStoreLabel = new JLabel(" East Malaysia Restaurant ");
+		subTotalStoreLabel = new JLabel(" North Houston Restaurant");
 		subTotalStoreLabel.setForeground(Color.yellow);
 		subTotalStoreLabel.setFont(new Font("Arial Black",Font.BOLD+Font.ITALIC,36));
 
