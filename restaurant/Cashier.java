@@ -1,5 +1,5 @@
 
-// Cashier.java: A cashier menu for North Houston Restaurant
+// Cashier.java: A cashier menu for Stafford Restaurant
  
 
 
@@ -184,7 +184,7 @@ class Menu extends JFrame implements KeyListener {
 		menuCenterPanel.setLayout(new BorderLayout(0,0));
 		menuCenterPanel.setBackground(new Color(160,255,150));
 
-		menuStoreLabel = new JLabel(" North Houston Restaurant ");
+		menuStoreLabel = new JLabel(" Stafford Restaurant ");
 		menuStoreLabel.setForeground(Color.yellow);
 		menuStoreLabel.setFont(new Font("Arial Black",Font.BOLD+Font.ITALIC,36));
 
@@ -397,7 +397,7 @@ class SubTotal extends JFrame implements KeyListener {
 		subTotalCenterPanel.setLayout(new BorderLayout(0,0));
 		subTotalCenterPanel.setBackground(new Color(160,255,150));
 
-		subTotalStoreLabel = new JLabel(" North Houston Restaurant ");
+		subTotalStoreLabel = new JLabel(" Stafford Restaurant ");
 		subTotalStoreLabel.setForeground(Color.yellow);
 		subTotalStoreLabel.setFont(new Font("Arial Black",Font.BOLD+Font.ITALIC,36));
 
