@@ -1,6 +1,6 @@
-/* 
- * Cashier.java: A cashier menu for North Houston Restaurant
- */
+
+// Cashier.java: A cashier menu for North Houston Restaurant
+ 
 
 
 package restaurant;
