@@ -211,7 +211,7 @@ class Menu extends JFrame implements KeyListener {
 
 		// Header
 		menuHeaderLabel = new JLabel("             Food Item"
-									+"              Price(RM)"
+									+"              Price($)"
 									+"    Ordered");
 		menuHeaderLabel.setForeground(Color.white);
 		menuHeaderLabel.setFont(new Font("Verdana",Font.BOLD,18));
@@ -426,7 +426,7 @@ class SubTotal extends JFrame implements KeyListener {
 		subTotalHeaderLabel = new JLabel("    Food Item"
 										+"           Price/Unit"
 										+"    Ordered"
-										+"    Total(RM)   ");
+										+"    Total($)   ");
 		subTotalHeaderLabel.setForeground(Color.white);
 		subTotalHeaderLabel.setFont(new Font("Verdana",Font.BOLD,18));
 
@@ -465,7 +465,7 @@ class SubTotal extends JFrame implements KeyListener {
 		}
 
 		// Show grand total figure
-		subTotalGrandTotalLabel = new JLabel(" Sub Total : RM " + grandTotal + "0");
+		subTotalGrandTotalLabel = new JLabel(" Sub Total : $ " + grandTotal + "0");
 		subTotalGrandTotalLabel.setForeground(Color.red);
 		subTotalGrandTotalLabel.setFont(new Font("Courier New",Font.BOLD,30));			
 
